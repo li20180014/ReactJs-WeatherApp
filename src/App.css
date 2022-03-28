@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.container{
+ margin: auto;
+  width: 80%;
+}
+.App{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #2894db, #91c2dd);
+  transition: 0.4s ease-in;
+}
+
+.hladno{
+  background-image: linear-gradient(to bottom, #65686e, #adb7bd);
+}
+
+.toplo{
+  background-image: linear-gradient(to bottom, #821063, #fa5039);
+}
+
+
+
+.title{
+  padding: 20xp 0 40px 0;
+  color: #fff;
+}
+
+.weather-temp{
+  padding-bottom: 40px;
+  padding-left: 60px;
+  width: 30wh;
+}
+.weather-temp h1, .weather-temp h4, .weather-temp p{
+  padding-bottom: 10px;
+}
+.weather-info p , .weather-info h2{
+  text-align:center;
+}
+.user-weather{
+  color:#fff;
+  padding:30px;
+  border-radius: 10px;
+  border:1px solid #fff;
+}
+.navbar{
+  background-color: #ddd;
+}
+
+.row{
+  padding-top: 20px;
+  margin:0px 0 40px 0;
+}
+
+.region{
+  margin-top:30px;
+}
+.regioninput{
+  background:none;
+  border:none;
+  border-bottom:1px solid #fff;
+  padding:0 50px 0 0px;
+  outline:none;
+  font-size: 1.3rem;
+}
+
+.regioninput::placeholder{
+  font-weight:400;
+  padding-left:0;
+  font-size: 1rem;
+  color: rgba(224, 224, 224, 0.705);
+}
+.region button{
+  background: none;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+}
